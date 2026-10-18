@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "Ivy Presto Text";
+    src: url("fonts/Ivy-Presto-Text-.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #FAF7F2;
+    box-sizing: border-box;
+    
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    font-family: "Ivy Presto Text", serif;
+    text-decoration: none;
+    color:#555555;
+    font-size: 20px;
+}
+body div{
+    display: flex;
+    min-height: calc(100vh - 60px);
+    justify-content: center;
+    /* align-items: center; */
+}
+div p{
+    font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+footer{
+    background-color: #242812;
+    min-height: 350px;
+    width: 100%;
+    border-top-left-radius: 50% 200px;
+    border-top-right-radius: 50% 200px;
+    scale: 1.5;
+}
+#quote{
+    color: #EDE7DF;
+    font-family: "Ivy Presto Text", editorial serif;
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+#by{
+    color: #EDE7DF;
+    font-family: "Ivy Presto Text", serif;
+    font-size: 14px;
+    position: relative;
+    top: 100px;
+    left: 64%;
+    padding: 10px;
+}
